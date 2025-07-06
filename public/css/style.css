@@ -1,0 +1,154 @@
+body {
+    font-family: "Montserrat", "Plus Jakarta Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    flex: 1;
+}
+
+h3 {
+    margin-top: 12px !important;
+    margin-bottom: 30px !important;
+
+}
+
+/* Navbar */
+.navbar {
+    height: 5rem;
+    margin-bottom: 8px;
+    background-color: #e28787;
+}
+
+.fa-compass {
+    color: #e8101e;
+    font-size: 2rem;
+}
+
+.nav-links {
+    color: #0a0101 !important;
+    font-size: 2rem;
+}
+
+/*Footer*/
+.f-info-links a {
+    text-decoration: none;
+    color: #120101 !important;
+    margin-right: 6px;
+}
+
+.f-info-links a:hover {
+    text-decoration: underline;
+}
+
+.f-info-links,
+.f-info-socials,
+.f-info-brand {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4px;
+}
+
+.f-info-socials i {
+    font-size: 1.2rem;
+    margin-right: 1rem;
+}
+
+.f-info {
+    text-align: center;
+    display: flex;
+    height: 8rem;
+    background-color: #e28787;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly;
+}
+
+/*cards*/
+.listing-card {
+    border: none !important;
+    margin-bottom: 2rem;
+    margin-top: 10px;
+}
+
+.card-img-top {
+    border-radius: 0.5rem ;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+
+.card-body {
+    padding: 0 !important;
+
+}
+
+.card-text p {
+    font-weight: 400;
+}
+
+.listing-link {
+    text-decoration: none;
+}
+
+/*card effect*/
+.card-img-overlay {
+    opacity: 0;
+}
+
+.card-img-overlay:hover {
+    opacity: 0.2;
+    background-color: white;
+}
+
+/* form */
+.add-btn {
+    background-color: #fe424d !important;
+    border: none !important;
+    margin-top: 4px !important;
+}
+
+.edit-btn {
+    background-color: #fe424d !important;
+    border: none !important;
+    margin-top: 4px !important;
+}
+
+.form-label {
+    font-weight: 600;
+}
+
+/*show */
+.show-img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover !important;
+    padding-left: 0;
+}
+
+.del-btn {
+
+    border: none !important;
+    margin-top: 4px !important;
+
+}
+
+.btns {
+    display: flex;
+}
+
+/* Original image in edit */
+.orimage{
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+}
+/*map*/
+#map {
+      height: 400px;
+      width: 80vh;
+      border-radius: 20px;
+    }
